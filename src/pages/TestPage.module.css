@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+.background {
+    background-color: #041325;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #474444;
+}
+
+.test_container {
+    height: 550px;
+    width: 1100px;
+    background-color: #FFFFFF;
+    font-family: 'Poppins';
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.s_no_container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.question_name {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.question_options {
+    display: grid;
+    height: 250px;
+    width: 750px;
+    font-size: 35px;
+    font-weight: 600;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+}
+
+.timer {
+    color: #D60000;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    height: 90px;
+    width: 300px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.option img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.selected {
+    border: 2px solid blue;
+}
+
+.QnACompleted,
+.pollCompleted {
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Poppins';
+    font-weight: 700;
+    background-color: #FFFFFF;
+    height: 100vh;
+}
+
+.score {
+    color: green;
+}
+
+.testNextButton {
+    border-radius: 10px;
+    background-color: #60B84B;
+    height: 50px;
+    width: 300px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    left: 100px;
+}
+
+.nextbtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .test_container {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .s_no_container {
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .question_name {
+        font-size: 24px;
+    }
+    
+    .question_options {
+        height: auto;
+        width: 100%;
+        font-size: 18px;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .option {
+        height: auto;
+        min-height: 50px;
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .option img {
+        width: 80px;
+        height: 60px;
+    }
+    
+    .testNextButton {
+        height: 40px;
+        font-size: 18px;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .QnACompleted,
+    .pollCompleted {
+        font-size: 24px;
+        height: auto;
+        padding: 20px;
+    }
+}

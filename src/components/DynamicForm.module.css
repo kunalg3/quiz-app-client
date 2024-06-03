@@ -1,0 +1,209 @@
+.first_model {
+  width: 670px;
+  height: inherit;
+  color: #9f9f9f;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  /* margin: 30px 0px 0px 10px; */
+}
+.Quiz_name {
+  box-shadow: 2px 2px 7px 2px #d5d3d3;
+  width: inherit;
+  height: 45px;
+  background-color: white;
+}
+input {
+  height: 34px;
+  width: 310px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  /* padding: 0; */
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: large;
+}
+.place_row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 30px;
+  width: inherit;
+  font-size: 20px;
+}
+.QnAType,
+.PollType {
+  padding: 5px;
+  margin: auto;
+  width: 120px;
+  height: 26px;
+  text-align: center;
+  box-shadow: 2px 2px 7px 2px #d5d3d3;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.action_item {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+  width: inherit;
+  font-size: 18px;
+}
+.cancel_button,
+.continue_button {
+  width: 200px;
+  height: 29px;
+  text-align: center;
+  box-shadow: 2px 2px 7px 2px #d5d3d3;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+}
+.continue_button {
+  margin-left: 90px;
+  background-color: #60b84b;
+  color: white;
+}
+
+/* Add Quiz  */
+.tabs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.tab-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.One_tab {
+  margin: 8px;
+}
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  text-align: center;
+  flex: 1;
+  width: 48px;
+  height: 48px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 7px 2px #e6e3e3;
+  margin-left: 35px;
+}
+.Question_number_one {
+  top: 20px;
+  width: 48px;
+  height: 48px;
+}
+.close_question {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  left: 60px;
+}
+.close_question:hover {
+  color: red;
+}
+.Question_name {
+  box-shadow: 2px 2px 7px 2px #d5d3d3;
+  width: 640px;
+  height: 45px;
+  background-color: white;
+  margin-left: 35px;
+}
+.add_button {
+  outline: none;
+  font-size: 50px;
+  color: #959595;
+  cursor: pointer;
+}
+.add_button:hover,
+.delete_option:hover {
+  color: #000000;
+}
+.Options,
+.option_type {
+  display: flex;
+  margin-top: 10px;
+}
+.option_type {
+  margin-left: 20px;
+}
+input[type="radio" i] {
+  width: 20px;
+  margin: 3px 3px 3px 9px;
+}
+.option_One {
+  padding-top: 10px;
+  margin-right: 15px;
+}
+.button {
+  text-align: center;
+  box-shadow: 2px 2px 7px 2px #d5d3d3;
+  border-radius: 6px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+  border-width: 0px;
+  background-color: white;
+  color: grey;
+}
+.Add_option {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.options_timer_container {
+  display: flex;
+  margin-top: 20px;
+}
+.options_container {
+  width: 500px;
+}
+.timer_container {
+  padding-left: 60px;
+  padding-top: 30px;
+  text-align: center;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+.timer_button {
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.delete_option {
+  text-align: center;
+  padding-top: 10px;
+  color: grey;
+  cursor: pointer;
+  font-size: 20px;
+}
+.option_input {
+  width: 250px;
+  margin-left: 10px;
+}
+.option_Text_input {
+  width: 180px;
+  margin-left: 10px;
+}
+.selectedOption {
+  background-color: #60b84b;
+  color: white;
+}
+.radio_button {
+  margin-left: 0px;
+}
+.cancel_button {
+  margin-left: 35px;
+}

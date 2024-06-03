@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #EDEDED;
+}
+.app_logo{
+    font-family: "Jomhuria";
+    color: #474444;
+    font-size: 70px;
+    font-weight: 400;
+    margin-left: 31px;
+    margin-top: 17px;
+}
+.menu_option{
+    color: #474444;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    /* margin-left: 31px; */
+    background-color: #FFFFFF;
+    border: none;
+    margin: 22px 0 22px 31px ;
+    cursor: pointer;
+}
+/* .menu_option:hover{
+    filter: drop-shadow( 0 0 5px #b9b9b9);
+} */
+.menu_items{
+    position:absolute;
+    top: 35vh;
+    /* margin-top: 150px; */
+}
+.logout_btn{
+    font-weight: 700;
+    /* margin-top: 230px;
+    margin-bottom: 0; */
+    position: absolute;
+    top: 53vh;
+    width: 120px;
+    padding-top: 15px;
+    left: 0;
+    border-top: 1px solid #474444;
+    text-align: center;
+
+}
+.menubar {
+    width: 193px;
+    height: 100vh;
+    background-color: #FFFFFF;
+    filter: drop-shadow(3px 0px 0px #cfcece);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.dashboard_container {
+    display: flex;
+    margin-left: 190px;
+}
+.selected_option{
+    filter: drop-shadow( 0 0 5px #b9b9b9);
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid green; */
+}
+.stats_container{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid black; */
+    width: 86vw;
+    margin-top: 70px;
+}
+.card{
+    height: 150px;
+    width: 260px;
+    background-color: #FFFFFF;
+    /* margin: 40px; */
+    /* border: 1px solid black; */
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    /* margin-top: 80px; */
+    align-items: flex-start;
+    font-family: 'Poppins';
+}
+.no_of_quiz{
+    font-size: 60px;
+    color: #FF5D01;
+    font-weight: 600;
+    margin-top: -180px;
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    /* margin-top: -80px; */
+}
+.no_of_question{
+    font-size: 60px;
+    color: #60B84B;
+    font-weight: 600;
+    margin-top: -180px;
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+.no_of_impression{
+    font-size: 60px;
+    color: #5076FF;
+    font-weight: 600;
+    margin-top: -180px;
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.quiz_text{
+    color: #FF5D01;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.question_text{
+    color: #60B84B;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.impression_text{
+    color: #5076FF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+
+/* Styles for the trending quizzes section */
+.trendingquiz {
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  
+  .trendingquiz h2 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    color: #474444;
+    margin-bottom: 20px;
+  }
+  
+  .trendingquiz_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .quiz_card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* Adjusts to a maximum of 4 cards per row */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins';
+  }
+  
+  .quiz_card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #474444;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quiz_card p {
+    font-size: 14px;
+    color: #7D7D7D;
+    margin: 10px 0 0 0;
+  }
+  
+  .eye{
+    margin-left:-100px;
+    width: 20px;
+  }
+  .date_creation{
+    color: #60B84B;
+    font-size: 15px;
+  }
+  .impression_count_text{
+    color: #FF5D01;
+  }

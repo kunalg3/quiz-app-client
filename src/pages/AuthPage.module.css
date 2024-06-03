@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+.fadebackground{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    color:#474444;
+    font-weight: 100;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Jomhuria";
+    padding: 20px;
+    margin: 0;
+}
+.background{
+    background-color: #FFFFFF;
+    height: 540px;
+    width: 1020px;
+    filter: drop-shadow(0 0 10px #cfcece);
+    /* display: flex; */
+    /* margin: 85px 88px; */
+}
+.authmenuflex{
+    display: flex;
+    justify-content:space-around;
+}
+.authmenu{
+    width: 450px;
+}
+.menu_btn{
+    color: #474444;
+    height: 37px;
+    width: 170px;
+    margin: 0 25px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    /* filter: drop-shadow(0 0 15px rgb(206, 208, 255)); */
+    border: none;
+    cursor: pointer;
+}
